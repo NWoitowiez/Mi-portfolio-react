@@ -6,15 +6,19 @@ import './Navigation.css';
 
 class Navigation extends Component {
   render() {
+      const secciones = ['Inicio', 'Sobre mi', 'Trabajos', 'Hobbies', 'Contacto' ];
+      const navLinks = secciones.map( seccion=> {
+        return (
+            <li><a href={'#' + seccion }>{seccion}</a></li>
+        )
+
+      });
     return (
         <nav>
             <h2 className="logo">{this.props.logoTitle}</h2>
 
             <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#sobremi">Sobre mi</a></li>
-                <li><a href="#trabajos">Trabajos</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                {navLinks}
             </ul>
         </nav>
 
@@ -24,3 +28,4 @@ class Navigation extends Component {
 }
 
 export default Navigation;
+
