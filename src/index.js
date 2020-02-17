@@ -8,14 +8,15 @@ import * as serviceWorker from './serviceWorker';
 
 class App extends Component {
     render() {
-        return (
+        return(
             <div>
-                <Navigation LogoTitle="NICOLAS WOITOWIEZ"/>
+                <Navigation logoTitle="NICOLAS WOITOWIEZ"/>
                 <Header />
             </div>
         );
+
     }
 }
 
-ReactDOM.render(<Navigation logoTitle="NICOLAS WOITOWIEZ" />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 serviceWorker.unregister();

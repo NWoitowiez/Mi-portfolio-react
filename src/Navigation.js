@@ -16,7 +16,6 @@ class Navigation extends Component {
     return (
         <nav>
             <h2 className="logo">{this.props.logoTitle}</h2>
-
             <ul>
                 {navLinks}
             </ul>

@@ -1,8 +1,11 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
+
+import Background from './img/cielo.jpg';
 
 const myStyles = {
-    'backgroundImage': './img/cielo.jpg',
-    'heigth': '300px'
+    backgroundImage: `url( ${Background} )`,
+    height: '80vh',
+    BackgroundSize: 'cover'
 
 }
 
@@ -12,14 +15,13 @@ class Header extends Component {
             
             <header style= {myStyles}>
 
-
             </header>
-
-
 
         );
 
+
     }
+
 
 
 
