@@ -4,7 +4,7 @@ import Background from './img/cielo.jpg';
 
 const myStyles = {
     backgroundImage: `url( ${Background} )`,
-    height: '80vh',
+    height: '500vh',
     BackgroundSize: 'cover'
 
 }
