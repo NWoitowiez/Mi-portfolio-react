@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
 import Background from './img/cielo.jpg';
 import mainPerfil from './img/Perfil.png';
+import MainTrabajos from './img/Black.jpg';
 
 import './Header.css';
 
 const myStyles = {
     backgroundImage: `url( ${Background} )`,
-    height: '500vh',
+    height: '570vh',
     BackgroundSize: 'cover'
 }
 
@@ -24,9 +25,19 @@ class Header extends Component {
                 <h1 className="Titulosinicio">Sobre mí</h1>
                 <h2 className="Textoinfo">Hola, mi nombre es Nicolas, tengo 21 años,
                 <br></br> nací en el barrio de Boedo, barrio de murga y carnaval (?. 
+                <br></br> Agrego texto que despues va a ser mejorado no os preocupeis.
+                <br></br> Agrego texto que despues va a ser mejorado no os preocupeis.
+                <br></br> Agrego texto que despues va a ser mejorado no os preocupeis.
+                <br></br> Agrego texto que despues va a ser mejorado no os preocupeis.
+                <br></br> Agrego texto que despues va a ser mejorado no os preocupeis.
+                <br></br> Agrego texto que despues va a ser mejorado no os preocupeis.
                 <br></br> Agrego texto que despues va a ser mejorado no os preocupeis.</h2>
             </div>
                 <h1 className="Titulosinicio">Trabajos</h1>
+                <img className="Trabajosfoto" src={MainTrabajos}></img> 
+                <img className="Trabajosfoto" src={MainTrabajos}></img>
+                <img className="Trabajosfoto" src={MainTrabajos}></img>
+                <img className="Trabajosfoto" src={MainTrabajos}></img>   
             
                 <h1 className="Titulosinicio">Hobbies</h1>
                 
