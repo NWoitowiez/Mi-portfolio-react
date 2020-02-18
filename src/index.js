@@ -11,7 +11,7 @@ class App extends Component {
         return(
             <div>
                 <Navigation logoTitle="NICOLAS WOITOWIEZ"/>
-                <Header />
+                <Header title="Web Developer" button="Ver mas"/>
             </div>
         );
 
