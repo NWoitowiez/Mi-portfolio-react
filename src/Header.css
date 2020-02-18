@@ -1,7 +1,7 @@
 header {
     margin: 0 auto;
     text-align: center;
-    padding-top: 300px;
+    padding-top: 20px;
 }
 
 header h1 {
@@ -27,4 +27,15 @@ header a {
     text-decoration: none;
     border-radius: 40px;
     display: inline-block;
+}
+
+img {
+    margin: 0;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 1.75rem;
+    color: #fff;
+    margin-bottom: 30px;
 }
