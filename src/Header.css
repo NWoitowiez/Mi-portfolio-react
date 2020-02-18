@@ -1,7 +1,7 @@
 header {
     margin: 0 auto;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 header h1 {
@@ -30,12 +30,18 @@ header a {
 }
 
 img {
-    margin: 0;
+    margin: 30px;
 }
 
-h2 {
+
+.Titulosinicio {
+    padding: 50px;
+    margin-top: 130px;
+    margin-bottom: 0;
+}
+
+.Textoinfo {
     font-weight: 700;
     font-size: 1.75rem;
     color: #fff;
-    margin-bottom: 30px;
 }
