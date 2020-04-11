@@ -4,6 +4,7 @@ import mainPerfil from './img/Perfil.png';
 import MainTrabajos from './img/Black.jpg';
 
 import './Header.css';
+import { Link } from 'react-router-dom';
 
 const myStyles = {
     backgroundImage: `url( ${Background} )`,
@@ -40,8 +41,10 @@ class Header extends Component {
                 <img className="Trabajosfoto" src={MainTrabajos}></img>   
             
                 <h1 className="Titulosinicio">Hobbies</h1>
-                
+
                 <h1 className="Titulosinicio">Contacto</h1>
+                <div>
+                </div>
             </header>
 
         );
